@@ -254,7 +254,7 @@ function AposBot() {
     };
 
     this.getTimeToRemerge = function(mass){
-        return ((mass*0.02) + 30);
+        return ((mass*500.50) + 30);
     };
 
     this.separateListBasedOnFunction = function(that, listToUse, blob) {
